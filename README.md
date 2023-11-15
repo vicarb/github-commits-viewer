@@ -36,7 +36,7 @@ This command will build the images for the backend and frontend and start the co
 
 ## Using the Application
 
-- Navigate to the frontend URL to view the latest commits from GitHub.
+- Navigate to the frontend URL http://localhost:3001 to view the latest commits from GitHub.
 - Toggle between light and dark themes using the night mode switch at the top of the page.
 
 ## Stopping the Application
