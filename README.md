@@ -18,7 +18,7 @@ Before you begin, ensure you have Docker installed on your system. If not, you c
 
 1. **Clone the Repository**
 
-`git clone https://github.com/vicarb/github-commits-viewer.git`
+`git clone https://github.com/vicarb/github-commits-viewer.git`  
 `cd github-commits-viewer`
 
 
