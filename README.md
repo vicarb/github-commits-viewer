@@ -18,13 +18,13 @@ Before you begin, ensure you have Docker installed on your system. If not, you c
 
 1. **Clone the Repository**
 
-git clone https://github.com/vicarb/github-commits-viewer.git
-cd github-commits-viewer
+`git clone https://github.com/vicarb/github-commits-viewer.git`
+`cd github-commits-viewer`
 
 
 2. **Build and Run with Docker Compose**
 
-docker-compose up --build
+`docker-compose up --build`
 
 
 This command will build the images for the backend and frontend and start the containers as defined in your `docker-compose.yaml` file.
@@ -44,7 +44,7 @@ This command will build the images for the backend and frontend and start the co
 To stop and remove the containers, networks, and images created by `docker-compose up`, run:
 
 
-docker-compose down
+`docker-compose down`
 
 
 ## Contributing
