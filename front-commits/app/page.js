@@ -1,7 +1,7 @@
 import Image from 'next/image'
-import Commits from '@/components/Commits'
+import Landing from '@/components/Landing/Landing'
 export default function Home() {
   return (
-    <Commits/>
+    <Landing/>
   )
 }
