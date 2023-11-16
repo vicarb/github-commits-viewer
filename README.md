@@ -12,7 +12,9 @@ This project is a web application that allows users to view the commit history f
 
 ## Prerequisites
 
-Before you begin, ensure you have Docker installed on your system. If not, you can download it from [Docker's official website](https://www.docker.com/get-started).
+Before you begin, ensure you have the following installed:
+- [Docker](https://www.docker.com/get-started)
+- [Docker Compose](https://docs.docker.com/compose/install/)
 
 ## Installation and Running the Application
 
