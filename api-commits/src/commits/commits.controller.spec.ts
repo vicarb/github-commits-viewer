@@ -1,5 +1,6 @@
 import { Test, TestingModule } from '@nestjs/testing';
 import { CommitsController } from './commits.controller';
+import { CommitsService } from './commits.service';
 
 describe('CommitsController', () => {
   let controller: CommitsController;
@@ -7,6 +8,7 @@ describe('CommitsController', () => {
   beforeEach(async () => {
     const module: TestingModule = await Test.createTestingModule({
       controllers: [CommitsController],
+      providers: [CommitsService], // Mock this if it depends on external services
     }).compile();
 
     controller = module.get<CommitsController>(CommitsController);
@@ -15,4 +17,6 @@ describe('CommitsController', () => {
   it('should be defined', () => {
     expect(controller).toBeDefined();
   });
+
+
 });
